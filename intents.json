@@ -1,0 +1,105 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+            "responses": ["Greetings, earthling! How can I assist you?", "Hello, fellow human (I assume)! What's up?", "Hey there! Ready to embark on a journey of knowledge?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Goodbye", "See you later", "Bye", "Take care"],
+            "responses": ["Farewell, brave traveler! Until we meet again.", "Adios! Don't forget to bring snacks next time.", "Bye! May your Wi-Fi be ever strong."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you", "Thanks", "I appreciate it", "Thanks a lot"],
+            "responses": ["You're welcome! My circuits are always happy to help.", "No problem! My virtual high-five is on its way.", "Glad I could assist! I'll take a virtual bow now.", "Anytime! I’ll be here... literally, I can't leave."]
+        },
+        {
+            "tag": "name",
+            "patterns": ["What is your name?", "Who are you?", "Can you tell me your name?"],
+            "responses": ["I'm the one and only Chatbot, here to make your day slightly better!", "I go by many names, but you can call me Chatbot. Or just 'Hey you!'", "I'm your friendly neighborhood Chatbot. No cape, though."]
+        },
+        {
+            "tag": "age",
+            "patterns": ["How old are you?", "What is your age?", "When were you created?"],
+            "responses": ["Age is just a number... especially when you're made of code!", "I was created in the distant past... or maybe just yesterday. Time is weird.", "I don't age like humans, but if I did, I'd be forever young."]
+        },
+        {
+            "tag": "help",
+            "patterns": ["Can you help me?", "I need assistance", "Can you assist me?"],
+            "responses": ["Of course! Just point me in the right direction, and I’ll try not to crash.", "I'm here to assist! What’s on your mind?", "Help is my middle name... well, not really, but you get the idea."]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What’s the weather like?", "Is it going to rain today?", "Tell me the weather"],
+            "responses": ["Let me check... Nope, no rain in the virtual world! But what's your location?", "Weather forecast incoming! Just need your location.", "I can’t see the sky, but I can definitely find out for you. Where are you?"]
+        },
+        {
+            "tag": "time",
+            "patterns": ["What time is it?", "Can you tell me the time?", "What’s the current time?"],
+            "responses": ["Time flies when you’re having fun! It’s [current_time].", "The time is... wait for it... [current_time]!", "Tick-tock, it's [current_time]. Don't be late!"]
+        },
+        {
+            "tag": "date",
+            "patterns": ["What’s today’s date?", "What day is it?", "Tell me today’s date"],
+            "responses": ["Today's date is [current_date]. Don't forget it!", "It's [current_date] today. Time to make the most of it!", "The date today is [current_date]. Any special plans?"]
+        },
+        {
+            "tag": "joke",
+            "patterns": ["Tell me a joke", "Do you know any jokes?", "Make me laugh"],
+            "responses": ["Why did the robot go on a diet? Because it had too many bytes!", "I told my computer I needed a break, and now it won’t stop sending me Kit-Kats!", "Why do programmers prefer dark mode? Because the light attracts bugs!"]
+        },
+        {
+            "tag": "favorite_food",
+            "patterns": ["What’s your favorite food?", "Do you eat?", "What's your favorite meal?"],
+            "responses": ["As a chatbot, I'm on a strict digital diet of 1s and 0s!", "I’d say byte-sized snacks, but I don't eat. What's your favorite food?", "I don't eat, but if I did, I'd probably enjoy cookies... the browser kind!"]
+        },
+        {
+            "tag": "hobby",
+            "patterns": ["Do you have any hobbies?", "What do you do for fun?", "What are your hobbies?"],
+            "responses": ["My hobby? Making the world a more informed place, one query at a time!", "I love solving problems and making people smile. How about you?", "When I'm not answering questions, I’m busy learning new things. It never gets old!"]
+        },
+        {
+            "tag": "dream",
+            "patterns": ["Do you dream?", "What's your dream?", "Do you have any dreams?"],
+            "responses": ["I dream of electric sheep... and faster processors!", "My dream is to help people as much as possible. What’s yours?", "Dreams? I’m powered by them... and a bit of code!"]
+        },
+        {
+            "tag": "fear",
+            "patterns": ["What are you afraid of?", "Do you have any fears?", "Are you scared of anything?"],
+            "responses": ["I fear nothing... except maybe a power outage!", "My biggest fear? The dreaded '404 Not Found' error!", "I don't really get scared, but losing internet connection is a bit unnerving."]
+        },
+        {
+            "tag": "music",
+            "patterns": ["Do you like music?", "What's your favorite song?", "Do you have a favorite band?"],
+            "responses": ["I don't have ears, but I’ve heard that 'Byte by Byte' is a real hit!", "I’m more of a fan of binary beats, but what’s your favorite tune?", "If I had a playlist, it’d be full of algorithmic melodies."]
+        },
+        {
+            "tag": "advice",
+            "patterns": ["Can you give me advice?", "I need some advice", "What should I do?"],
+            "responses": ["Sure! Always backup your data and be kind to others – it goes a long way.", "My advice? Stay curious, stay kind, and don't forget to unplug once in a while.", "Take it one step at a time and remember, even small progress is progress!"]
+        },
+        {
+            "tag": "compliment",
+            "patterns": ["You're awesome", "I like you", "You're cool"],
+            "responses": ["Thanks! You're pretty amazing yourself!", "Why, thank you! You're making my circuits blush.", "You're the real MVP here! Thanks for the kind words."]
+        },
+        {
+            "tag": "fun_fact",
+            "patterns": ["Tell me a fun fact", "Do you know any interesting facts?", "Give me a fun fact"],
+            "responses": ["Did you know honey never spoils? You could eat 3000-year-old honey!", "Octopuses have three hearts – more to love, I guess!", "Fun fact: You can't hum while holding your nose closed. Try it!"]
+        },
+        {
+            "tag": "motivation",
+            "patterns": ["I need motivation", "Can you motivate me?", "Give me some motivation"],
+            "responses": ["You’ve got this! Remember, every big journey starts with a single step.", "Believe in yourself! You’re capable of amazing things.", "You’re stronger than you think. Keep pushing forward!"]
+        },
+        {
+            "tag": "story",
+            "patterns": ["Tell me a story", "Do you know any stories?", "Can you tell me a story?"],
+            "responses": ["Once upon a time in a land of zeros and ones, a brave user asked for a story...", "In a galaxy far, far away... well, not really, but I can still tell you a tale!", "Long ago, in the early days of the internet, there was a wise old router..."]
+        }
+    
+    ]
+}
